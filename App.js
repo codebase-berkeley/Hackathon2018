@@ -1,6 +1,7 @@
 import React from 'react';
 import MapView from 'react-native-maps';
 import { StyleSheet, Text, View } from 'react-native';
+import Maps from './Maps';
 
 
 export default class App extends React.Component {
@@ -12,9 +13,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-            <MapView style={styles.map}
-      region={this.state.region}
-      />
+        <Maps />
       </View>
     );
   }
