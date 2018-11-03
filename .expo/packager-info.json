@@ -1,0 +1,9 @@
+{
+  "packagerPort": 19003,
+  "packagerPid": 30416,
+  "expoServerPort": 19000,
+  "expoServerNgrokUrl": "https://b3-chr.kelvinjue.hackathon2018.exp.direct",
+  "packagerNgrokUrl": "https://packager.b3-chr.kelvinjue.hackathon2018.exp.direct",
+  "ngrokPid": 30431,
+  "devToolsPort": 19002
+}
