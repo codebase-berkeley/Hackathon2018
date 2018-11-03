@@ -17,6 +17,7 @@ export default class App extends React.Component {
         longitudeDelta: 0.0421,
       },
     };
+    this.onRegionChange = this.onRegionChange.bind(this);
   }
 
   onRegionChange(region) {
@@ -27,12 +28,11 @@ export default class App extends React.Component {
     return (
 
       <View style={styles.container}>
-            <MapView style={styles.map}
-      region={this.state.region}
-      />
+        <MapView style={styles.map}
+          region={this.state.region}
+          onRegionChange={this.onRegionChange}
+        />
       </View>
-      
-      
     );
   }
 }
